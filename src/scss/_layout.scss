@@ -1,0 +1,42 @@
+
+.colorCells{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position:relative;
+  text-align: center;
+}
+
+.cellText {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  letter-spacing: 5px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.generatorText {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+
+  animation-name: transparency;
+  animation-duration: 3s;
+}
+
+.colorCellWrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}

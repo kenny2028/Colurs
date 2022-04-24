@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+body { background: $bg
+ }
+
+ .headerlayout {
+   color: white;
+   font-size: 15px;
+   list-style-type: none;
+   display: block;
+   font-family: 'Cormorant Garamond', serif;
+   letter-spacing: 5px;
+ }
+
+
+ .fixedheader {
+   position: relative;
+   left: 0;
+   top: 0;
+   width: 100%;
+   box-shadow: 0 0 20px #9999;
+   background-color: white;
+   height: 100px;
+   z-index: 1000;
+  // border: 5px solid rgba(176, 174, 174, .5);
+ }
+
+ .header-wrapper {
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 90%;
+   margin-right: 2%;
+ }
+
+
+ .Logoimage {
+   background-image: url("../dist/img/ColursLogo.svg");
+   background-size: cover;
+   height: 60px;
+   width: 160px;
+ }
+
+
+.Cell1 {
+  width: 100%;
+  background: rgb(2,0,36);
+  background: -webkit-linear-gradient(265deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  background: -o-linear-gradient(265deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  height: 450px;
+  z-index: 900;
+  flex-wrap: flex;
+
+
+
+}
+
+.Cell2 {
+
+  width: 100%;
+  background: rgb(2,0,36);
+  background: -webkit-linear-gradient(265deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  background: -o-linear-gradient(265deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(244,58,221,1) 0%, rgba(0,212,255,1) 100%);
+  z-index: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  display: flex;
+}
+
+
+.Cell3 {
+  width: 100%;
+  height: 1200px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(182,38,169,1) 0%, rgba(53,0,199,1) 100%);
+}
+
+
+
+
+.Cell1text {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 80px;
+  padding: 20px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+
+  animation-name: transparency;
+  animation-duration: 3s;
+}
+
+
+
+.buttonlayout {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  border: 0;
+  padding: 20px;
+  width: 260px;
+  height: 100px;
+  background-color: black;
+  float: right;
+  margin-right: 150px;
+  background: rgb(2,0,36);
+  border-radius: 40px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(182,38,169,1) 0%, rgba(53,0,199,1) 100%);
+
+  // animation-name: MOVE-BG-IN-RIGHT;
+  // animation-duration: 1.25s;
+  // animation-timing-function: cubic-bezier(.67,.37,.24,.78);
+
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+
+.cellcontainer {
+  background-color: $bg;
+  list-style-type: none;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  scroll-behavior: smooth;
+  //margin: 0px 150px 0px 150px;
+}
+
+
+
+
+.colorBox {
+  background-color: white;
+  width: 75%;
+  height: 708px;
+}
+
+.colorTextinfo {
+  height: 708px;
+  width: 379px;
+  background-color: rgb(118,70,251);
+  color: white;
+
+  animation-name: MOVE-BG-IN-RIGHT;
+  animation-duration: 1.25s;
+  animation-timing-function: cubic-bezier(.67,.37,.24,.78);
+}
+
+.colorinfoboxes1 {
+  height: 100px;
+  width: 100%;
+  font-family: Nunito, sans-serif;
+  font-size: 20pt;
+  text-align: center;
+
+  animation-name: MOVE-BG-IN-RIGHT;
+  animation-duration: 1.75s;
+  animation-timing-function: cubic-bezier(.67,.37,.24,.78);
+
+}
+
+.colorinfoboxes {
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 250px;
+  width: 100%;
+  font-family: Nunito, sans-serif;
+  font-size: 20pt;
+  text-align: center;
+
+  animation-duration: 1.75s;
+  animation-timing-function: cubic-bezier(.67,.37,.24,.78);
+}
+
+
+.colorinfoboxesch {
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 250px;
+  width: 100%;
+  font-family: Nunito, sans-serif;
+  font-size: 18pt;
+  text-align: center;
+
+  animation-duration: 1.75s;
+  animation-timing-function: cubic-bezier(.67,.37,.24,.78);
+
+}
+
+.colorBoxWrapper {
+  margin: auto;
+  width: 436.8px;
+  height: inherit;
+  background-color: white;
+  position: relative;
+}
+
+.colorPicker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.hexInputBox {
+  border-radius: 50px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+
+a:visited {
+   text-decoration: none;
+   text-color: black;
+}
+
+
+
+
+.break {
+  flex-basis: 100%;
+  width: 0;
+}
