@@ -1,4 +1,5 @@
 Combination of Html5 Boilerplate and SASS to be used as a future template 
+School Project - Creative Web Development
 
 
 I used IRO.JS, color-scheme.js, and Chroma.js.
