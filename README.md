@@ -55,8 +55,7 @@ generatedColor = chroma.scale([color1,color2]).mode('lch').colors(6);
 //Generates 6 colors from color1 to color two 
 
 
-Color-scheme.js 
-
+Color-scheme.js documentation: http://c0bra.github.io/color-scheme-js/
 ex:   
 var scheme = new ColorScheme;
   scheme.from_hue(savedHue1)   // Start scheme and generate from savedHue should be an int
